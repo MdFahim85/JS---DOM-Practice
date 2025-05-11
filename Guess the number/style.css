@@ -1,0 +1,21 @@
+body {
+  background-color: #f5f5f5;
+}
+
+.container.active {
+  filter: blur(20px);
+}
+.popUp {
+  width: 500px;
+  height: 500px;
+  background-color: rgb(255, 255, 255);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 9999;
+  position: fixed;
+  left: 37%;
+  top: 0;
+  box-shadow: 0 5px 30px #bdbdbd;
+}
