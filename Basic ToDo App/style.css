@@ -1,0 +1,84 @@
+body {
+  height: 100vh;
+  background: #4293b3;
+  background: linear-gradient(
+    180deg,
+    rgba(66, 147, 179, 1) 0%,
+    rgba(177, 250, 211, 1) 100%,
+    rgba(237, 221, 83, 1) 100%
+  );
+  background-repeat: no-repeat;
+}
+.appBox {
+  background-color: white;
+  height: 600px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+h1 {
+  font-weight: bolder;
+  color: white;
+  text-shadow: 0px 5px 10px #2b2b2b;
+}
+
+h3 {
+  color: black;
+}
+
+.inputBox {
+  display: flex;
+}
+
+.input {
+  width: 300px;
+  height: 40px;
+  border: 2px solid #3d3d3d44;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+}
+.input:focus {
+  border: 2px solid #3d3d3d;
+  outline: none;
+}
+.addBtn,
+.dltBtn {
+  width: 80px;
+  height: 40px;
+  background-color: rgb(43, 187, 120);
+  border: none;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.fa-solid {
+  color: white;
+}
+.addBtn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0px 5px 5px #3d3d3d;
+}
+.list {
+  list-style: none;
+  text-align: center;
+}
+
+.todo {
+  display: flex;
+  background-color: #f1f1f1;
+  align-items: center;
+  justify-content: space-between;
+  width: 385px;
+  height: 40px;
+  border-radius: 5px;
+  margin: 1rem 3rem;
+  padding-left: 2rem;
+}
+
+.red {
+  background-color: rgb(243, 65, 65);
+}
